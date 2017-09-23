@@ -1,4 +1,4 @@
-update=21/09/2017 17:26:29
+update=sáb 23 sep 2017 17:51:23 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,5 +56,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=libs/Poncho_Esqueleto
+LibName31=libs/Poncho_RFID
 [general]
 version=1

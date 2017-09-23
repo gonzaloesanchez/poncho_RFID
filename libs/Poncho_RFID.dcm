@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CR95HF
+D 13.56-MHz multi-protocol contactless transceiver IC
+K CR95HF RFID NFC
+$ENDCMP
+#
+#End Doc Library

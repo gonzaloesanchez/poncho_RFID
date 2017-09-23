@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -44,32 +44,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 5650 1450 2200 1450
-U 59C6DCE8
-F0 "Transmisor" 60
-F1 "Transmisor.sch" 60
-$EndSheet
 $Comp
-L Conn_Poncho2P_2x_20x2 XA?
-U 1 1 59C6DCF5
-P 3150 1500
-F 0 "XA?" H 3450 1900 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 3500 -200 60  0000 C CNN
-F 2 "" H 3150 1500 60  0000 C CNN
-F 3 "" H 3150 1500 60  0000 C CNN
-	1    3150 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_Poncho2P_2x_20x2 XA?
-U 2 1 59C6DD3A
-P 1500 1500
-F 0 "XA?" H 1800 1900 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 1850 -200 60  0000 C CNN
-F 2 "" H 1500 1500 60  0000 C CNN
-F 3 "" H 1500 1500 60  0000 C CNN
-	2    1500 1500
+L CR95HF U?
+U 1 1 59C6DDC9
+P 4900 3400
+F 0 "U?" H 4350 4400 50  0000 C CNN
+F 1 "CR95HF" H 4450 4350 50  0000 C CNN
+F 2 "" H 4700 3750 50  0001 C CNN
+F 3 "" H 4700 3750 50  0001 C CNN
+	1    4900 3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

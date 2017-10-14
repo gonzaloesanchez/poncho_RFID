@@ -1,4 +1,4 @@
-update=01/10/2017 20:08:38
+update=sáb 14 oct 2017 10:12:12 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,15 @@ LibName28=contrib
 LibName29=valves
 LibName30=libs/Poncho_Esqueleto
 LibName31=libs/Poncho_RFID
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1

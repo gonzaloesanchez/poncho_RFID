@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 108)
     (no_connects 108)
-    (area 0 0 0 0)
+    (area 52.998239 36.09 250.569048 180.435001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -37,8 +37,10 @@
   )
 
   (setup
-    (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (last_trace_width 1)
+    (user_trace_width 0.4)
+    (user_trace_width 1)
+    (trace_clearance 0.25)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -62,7 +64,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -169,7 +171,7 @@
   (net 76 "Net-(XA1-Pad80)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.25)
     (trace_width 0.25)
     (via_dia 0.6)
     (via_drill 0.4)

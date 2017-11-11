@@ -656,10 +656,6 @@ F 3 "" H 2650 6400 50  0001 C CNN
 	1    2650 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 6400 2    60   Input ~ 0
-VPS_TX
-Text GLabel 6050 900  2    60   Input ~ 0
-VPS_TX
 $Comp
 L PWR_FLAG #FLG019
 U 1 1 59F52D3F
@@ -671,8 +667,6 @@ F 3 "" H 1350 6400 50  0001 C CNN
 	1    1350 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 6400 0    60   Input ~ 0
-VPS_MAIN
 Wire Wire Line
 	1650 4850 1650 4600
 Wire Wire Line
@@ -1045,8 +1039,6 @@ Wire Wire Line
 	6450 5450 6300 5450
 Wire Wire Line
 	5850 900  5900 900 
-Text GLabel 5850 900  0    60   Input ~ 0
-VPS_MAIN
 $Comp
 L C C3
 U 1 1 59F5DC5E
@@ -1199,8 +1191,6 @@ Wire Wire Line
 	6000 900  6000 1400
 Wire Wire Line
 	6000 900  6050 900 
-Text GLabel 4450 1050 0    60   Input ~ 0
-VPS_MAIN
 Wire Wire Line
 	4450 1050 5100 1050
 Wire Wire Line
@@ -1208,4 +1198,14 @@ Wire Wire Line
 Wire Wire Line
 	4500 1300 4500 1050
 Connection ~ 4500 1050
+Text Label 1150 6400 2    60   ~ 0
+VPS_MAIN
+Text Label 4450 1050 2    60   ~ 0
+VPS_MAIN
+Text Label 5850 900  2    60   ~ 0
+VPS_MAIN
+Text Label 6050 900  0    60   ~ 0
+VPS_TX
+Text Label 2950 6400 0    60   ~ 0
+VPS_TX
 $EndSCHEMATC
